@@ -5,8 +5,6 @@
 <a href="https://swordsouloflabrynth.github.io/portfolio/">PORTFOLIO</a>
 &nbsp;&nbsp;·&nbsp;&nbsp;
 <a href="https://linkedin.com/in/kyaw-zay-ya-hein-00aba927b">LINKEDIN</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="mailto:">CONTACT</a>
 
 </div>
 
