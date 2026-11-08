@@ -1,27 +1,40 @@
 <!-- 01 / IDENTITY MASTHEAD -->
 <p align="center">
   <a href="https://swordsouloflabrynth.github.io/portfolio/">
-    <img src="assets/identity-masthead.svg" alt="Kyaw Zay Ya Hein — Independent Product Builder × Experimental Engineer" width="100%" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/kzyh-portfolio-banner-dark.png">
+      <source media="(prefers-color-scheme: light)" srcset="assets/kzyh-portfolio-banner-light.png">
+      <img alt="Kyaw Zay Ya Hein — I turn product ideas into working software." src="assets/kzyh-portfolio-banner-dark.png" width="100%">
+    </picture>
   </a>
 </p>
 
+<div align="center">
+
 # Kyaw Zay Ya Hein
-### Independent Product Builder × Experimental Engineer
+### Software Engineer & UI/UX Designer
 
-> *"Clean enough to trust. Distinctive enough to remember."*
+`[FINAL-YEAR CSE @ MIIT · EXPECTED 2027]` · `[MANDALAY, MYANMAR]` · `[OPEN TO ROLES]`
 
-**MIIT Computer Science & Engineering** · Expected Graduation 2027  
-[Portfolio](https://swordsouloflabrynth.github.io/portfolio/) · [LinkedIn](https://linkedin.com/in/kyaw-zay-ya-hein-00aba927b) · [GitHub Profile](https://github.com/SwordsoulOfLabrynth)
+[![Portfolio](https://img.shields.io/badge/Portfolio-swordsouloflabrynth.github.io-4A44C6?style=flat-square&logo=google-chrome&logoColor=white)](https://swordsouloflabrynth.github.io/portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-kyaw--zay--ya--hein-17132F?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/kyaw-zay-ya-hein-00aba927b)
+[![Email](https://img.shields.io/badge/Email-kyawzayyahein.mdy%40gmail.com-4A44C6?style=flat-square&logo=gmail&logoColor=white)](mailto:kyawzayyahein.mdy@gmail.com)
+[![CV Résumé](https://img.shields.io/badge/Résumé-PDF-17132F?style=flat-square&logo=adobe-acrobat-reader&logoColor=white)](https://swordsouloflabrynth.github.io/portfolio/assets/documents/Kyaw_Zay_Ya_Hein_CV_Resume.pdf)
+
+<br/>
+
+> **"I turn product ideas into working software."**  
+> Final-year Computer Science & Engineering student at Myanmar Institute of Information Technology (MIIT, graduating 2027). Building maintainable C# / .NET backend architectures, offline-first Flutter mobile applications, and developer-grade product design systems.
+
+</div>
 
 ---
 
-## 02 / Engineering Thesis
+## 02 / Engineering Philosophy & Focus
 
-> **"I build systems that turn ideas into working products."**
+I approach software engineering with a product builder's perspective: decomposing ambiguous requirements into rigorous domain models, crafting resilient transactional backends, and building offline-capable client applications with elevated UI/UX standards.
 
-I approach software engineering from first principles: decomposing ambiguous product visions into rigorous domain specifications, crafting resilient transactional backends, and building offline-capable client applications.
-
-Rather than chasing superficial complexity or decorative boilerplate, I prioritize architectural clarity, verifiable data integrity, and empirical evidence.
+Rather than chasing superficial complexity or decorative boilerplate, I prioritize architectural clarity, verifiable data integrity, and empirical proof.
 
 ---
 
