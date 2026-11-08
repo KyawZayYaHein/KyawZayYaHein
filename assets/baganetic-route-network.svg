@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 280" width="100%" height="100%" fill="none" role="img" aria-label="Baganetic Mobile — Offline Route Network and On-Device Persistence">
+  <defs>
+    <linearGradient id="sandCanvas" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F7F2E9"/>
+      <stop offset="50%" stop-color="#F1E9DC"/>
+      <stop offset="100%" stop-color="#E7DDCB"/>
+    </linearGradient>
+    <pattern id="cartoGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#DFD4C2" stroke-width="0.8" stroke-dasharray="1 3"/>
+    </pattern>
+  </defs>
+
+  <!-- Cartographic Parchment Canvas -->
+  <rect width="880" height="280" rx="16" fill="url(#sandCanvas)"/>
+  <rect width="880" height="280" rx="16" fill="url(#cartoGrid)"/>
+  <rect x="0.5" y="0.5" width="879" height="279" rx="15.5" fill="none" stroke="#D1C3AF" stroke-width="1"/>
+
+  <!-- Left Header Strip -->
+  <g transform="translate(32, 24)">
+    <rect x="0" y="0" width="76" height="20" rx="4" fill="#C84B31" fill-opacity="0.15" stroke="#C84B31" stroke-width="1"/>
+    <text x="38" y="14" fill="#C84B31" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="10" font-weight="700" letter-spacing="1" text-anchor="middle">SYS.02</text>
+    <text x="86" y="14" fill="#2E2820" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">BAGANETIC MOBILE // OFFLINE ROUTE GRAPH &amp; STORAGE</text>
+    
+    <!-- Verified Metrics Badges -->
+    <rect x="520" y="0" width="160" height="20" rx="4" fill="#E6DDCF" stroke="#C5B6A0" stroke-width="1"/>
+    <text x="600" y="14" fill="#42372B" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" font-weight="700" text-anchor="middle">7,035 ROAD NODES · 7,344 EDGES</text>
+
+    <rect x="690" y="0" width="158" height="20" rx="4" fill="#E6DDCF" stroke="#C5B6A0" stroke-width="1"/>
+    <text x="769" y="14" fill="#42372B" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" font-weight="700" text-anchor="middle">70 PAGODA NODES · 310 EDGES</text>
+  </g>
+
+  <!-- Subhead Meta -->
+  <text x="32" y="66" fill="#6E6252" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="10">BAGAN ARCHAEOLOGICAL ZONE · TILE PREFETCH BOUNDS: [20.97° N – 21.37° N, 94.65° E – 95.05° E] · FLUTTER + SQLITE</text>
+
+  <!-- Left: Cartographic Network Topology Graph -->
+  <g transform="translate(40, 85)">
+    <!-- Map Region Contour Framing -->
+    <rect x="0" y="0" width="450" height="150" rx="8" fill="#EFE8DB" stroke="#D3C5B1" stroke-width="1"/>
+    
+    <!-- Irrawaddy River Graphic Accent -->
+    <path d="M 10 10 Q 50 40 80 80 T 110 140" fill="none" stroke="#8EB4C7" stroke-width="14" stroke-linecap="round" stroke-opacity="0.4"/>
+    <text x="40" y="130" fill="#6A8D9F" font-family="'SF Mono', Consolas, monospace" font-size="8.5" font-weight="600">IRRAWADDY RIVER</text>
+
+    <!-- Paved Road Connections (Solid Terracotta) -->
+    <line x1="120" y1="40" x2="220" y2="45" stroke="#C84B31" stroke-width="2.5"/>
+    <line x1="220" y1="45" x2="330" y2="70" stroke="#C84B31" stroke-width="2.5"/>
+    <line x1="220" y1="45" x2="240" y2="115" stroke="#C84B31" stroke-width="2.5"/>
+    
+    <!-- Unpaved Sandy Tracks (Dashed Earth with cost multiplier) -->
+    <line x1="120" y1="40" x2="160" y2="105" stroke="#8C6D53" stroke-width="2" stroke-dasharray="4 3"/>
+    <line x1="160" y1="105" x2="240" y2="115" stroke="#8C6D53" stroke-width="2" stroke-dasharray="4 3"/>
+    <line x1="240" y1="115" x2="360" y2="125" stroke="#8C6D53" stroke-width="2" stroke-dasharray="4 3"/>
+    <line x1="330" y1="70" x2="360" y2="125" stroke="#8C6D53" stroke-width="2" stroke-dasharray="4 3"/>
+
+    <!-- Monument Nodes -->
+    <circle cx="120" cy="40" r="5" fill="#C84B31"/>
+    <text x="110" y="30" fill="#3D3226" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="700">Bu Paya</text>
+
+    <circle cx="220" cy="45" r="5" fill="#C84B31"/>
+    <text x="210" y="35" fill="#3D3226" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="700">Thatbyinnyu</text>
+
+    <circle cx="330" cy="70" r="6" fill="#9333EA"/>
+    <text x="342" y="74" fill="#3D3226" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="800">Ananda Temple</text>
+
+    <circle cx="160" cy="105" r="5" fill="#C84B31"/>
+    <text x="96" y="112" fill="#3D3226" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="700">Shwesandaw</text>
+
+    <circle cx="240" cy="115" r="6" fill="#C84B31"/>
+    <text x="230" y="132" fill="#3D3226" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="800">Dhammayangyi</text>
+
+    <circle cx="360" cy="125" r="5" fill="#C84B31"/>
+    <text x="368" y="138" fill="#3D3226" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="700">Sulamani</text>
+
+    <!-- Legend inside map -->
+    <g transform="translate(10, 10)">
+      <line x1="0" y1="4" x2="16" y2="4" stroke="#C84B31" stroke-width="2"/>
+      <text x="22" y="7" fill="#5A4F41" font-family="'SF Mono', Consolas, monospace" font-size="8">Paved Primary (1.0x)</text>
+      <line x1="0" y1="16" x2="16" y2="16" stroke="#8C6D53" stroke-width="1.5" stroke-dasharray="3 2"/>
+      <text x="22" y="19" fill="#5A4F41" font-family="'SF Mono', Consolas, monospace" font-size="8">Sand Track (1.35x cost)</text>
+    </g>
+  </g>
+
+  <!-- Right: On-Device Persistence & Caching System Architecture -->
+  <g transform="translate(515, 85)">
+    <rect x="0" y="0" width="333" height="150" rx="8" fill="#EFE8DB" stroke="#D3C5B1" stroke-width="1"/>
+    
+    <text x="14" y="22" fill="#2E2820" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700">ON-DEVICE DATA LAYER (OFFLINE OPERATION)</text>
+    
+    <!-- Module 1: SQLite -->
+    <g transform="translate(14, 32)">
+      <rect x="0" y="0" width="305" height="32" rx="5" fill="#F7F2E9" stroke="#CFC1AD" stroke-width="1"/>
+      <text x="10" y="15" fill="#C84B31" font-family="'SF Mono', Consolas, monospace" font-size="9" font-weight="700">SQLITE (sqflite v14)</text>
+      <text x="10" y="26" fill="#5A4F41" font-family="'SF Mono', Consolas, monospace" font-size="8">Tables: pagodas · trips · trip_stops · bookmarks · feedbacks</text>
+    </g>
+
+    <!-- Module 2: FMTC Map Tile Store -->
+    <g transform="translate(14, 70)">
+      <rect x="0" y="0" width="305" height="32" rx="5" fill="#F7F2E9" stroke="#CFC1AD" stroke-width="1"/>
+      <text x="10" y="15" fill="#7C3AED" font-family="'SF Mono', Consolas, monospace" font-size="9" font-weight="700">FMTC TILE PREFETCH STORE</text>
+      <text x="10" y="26" fill="#5A4F41" font-family="'SF Mono', Consolas, monospace" font-size="8">baganetic_map_store · Zoom Levels 12–16 · Lat/Long Box</text>
+    </g>
+
+    <!-- Module 3: Bilingual Localisation -->
+    <g transform="translate(14, 108)">
+      <rect x="0" y="0" width="305" height="32" rx="5" fill="#F7F2E9" stroke="#CFC1AD" stroke-width="1"/>
+      <text x="10" y="15" fill="#2E2820" font-family="'SF Mono', Consolas, monospace" font-size="9" font-weight="700">BILINGUAL ASSET CATALOG</text>
+      <text x="10" y="26" fill="#5A4F41" font-family="'SF Mono', Consolas, monospace" font-size="8">Offline JSON catalogs in English &amp; Myanmar (Zawgyi/Unicode)</text>
+    </g>
+  </g>
+
+  <!-- Footer Specs -->
+  <g transform="translate(32, 260)">
+    <text x="0" y="0" fill="#7D705E" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9.5">RUNTIME BOUNDS: LAT [20.9717°, 21.3717°] · LNG [94.6589°, 95.0589°] · TARGET: OFFLINE TRAVELERS</text>
+    <text x="816" y="0" fill="#7D705E" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9.5" text-anchor="end">ROLE: LEAD DEVELOPER (CORE CODE IMPLEMENTATION)</text>
+  </g>
+</svg>

@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 280" width="100%" height="100%" fill="none" role="img" aria-label="Baganetic — A* Min-Heap Graph Exploration Heuristics">
+  <defs>
+    <linearGradient id="algoBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0E131F"/>
+      <stop offset="50%" stop-color="#0A0E17"/>
+      <stop offset="100%" stop-color="#060910"/>
+    </linearGradient>
+    <pattern id="algoGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#172238" stroke-width="0.8"/>
+    </pattern>
+  </defs>
+
+  <!-- Deep Algorithmic Obsidian Canvas -->
+  <rect width="880" height="280" rx="16" fill="url(#algoBg)"/>
+  <rect width="880" height="280" rx="16" fill="url(#algoGrid)"/>
+  <rect x="0.5" y="0.5" width="879" height="279" rx="15.5" fill="none" stroke="#1E2C48" stroke-width="1"/>
+
+  <!-- Top System Header Bar -->
+  <g transform="translate(32, 24)">
+    <rect x="0" y="0" width="76" height="20" rx="4" fill="#38BDF8" fill-opacity="0.15" stroke="#38BDF8" stroke-width="1"/>
+    <text x="38" y="14" fill="#38BDF8" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="10" font-weight="700" letter-spacing="1" text-anchor="middle">SYS.03</text>
+    <text x="86" y="14" fill="#F0F6FC" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">BAGANETIC ROUTING ENGINE // A* MIN-HEAP PATHFINDER</text>
+    
+    <rect x="580" y="0" width="268" height="20" rx="4" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <text x="714" y="14" fill="#94A3B8" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9" font-weight="700" text-anchor="middle">improved_pathfinder.py · ~580 LOC</text>
+  </g>
+
+  <!-- Subhead Meta -->
+  <text x="32" y="66" fill="#7DD3FC" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="10">EVALUATION FUNCTION: f(n) = g(n) + h(n) · ADMISSIBLE HAVERSINE HEURISTIC · SURFACE TRAVERSAL PENALTIES</text>
+
+  <!-- Left Side: Mathematical Cost Function & Equations -->
+  <g transform="translate(40, 85)">
+    <rect x="0" y="0" width="370" height="150" rx="8" fill="#111827" stroke="#1F2937" stroke-width="1"/>
+    
+    <text x="16" y="24" fill="#E2E8F0" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700">FORMAL COST BREAKDOWN</text>
+    
+    <!-- Primary Formula Block -->
+    <rect x="16" y="34" width="338" height="38" rx="5" fill="#0B0F19" stroke="#38BDF8" stroke-width="1"/>
+    <text x="185" y="58" fill="#38BDF8" font-family="'SF Mono', Consolas, monospace" font-size="14" font-weight="800" text-anchor="middle">f(n) = g(n) + h(n)</text>
+
+    <!-- Component 1: g(n) -->
+    <text x="16" y="90" fill="#F59E0B" font-family="'SF Mono', Consolas, monospace" font-size="9.5" font-weight="700">g(n) = Σ [ d(u,v) × W_surface ]</text>
+    <text x="16" y="104" fill="#94A3B8" font-family="'SF Mono', Consolas, monospace" font-size="8.5">Cumulative path cost · Paved W=1.0x · Unpaved sand W=1.35x</text>
+
+    <!-- Component 2: h(n) -->
+    <text x="16" y="124" fill="#A78BFA" font-family="'SF Mono', Consolas, monospace" font-size="9.5" font-weight="700">h(n) = 2R · arcsin(√(sin²(Δφ/2) + cosφ₁cosφ₂sin²(Δλ/2)))</text>
+    <text x="16" y="138" fill="#94A3B8" font-family="'SF Mono', Consolas, monospace" font-size="8.5">Haversine great-circle distance · Admissible (never overestimates)</text>
+  </g>
+
+  <!-- Right Side: Priority Queue (heapq) Node Expansion Tree -->
+  <g transform="translate(445, 85)">
+    <rect x="0" y="0" width="403" height="150" rx="8" fill="#111827" stroke="#1F2937" stroke-width="1"/>
+    
+    <text x="16" y="24" fill="#E2E8F0" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700">MIN-HEAP PRIORITY QUEUE (heapq) &amp; EXPLORATION FRONTIER</text>
+
+    <!-- Visual Search Tree Graph -->
+    <!-- Start Node -->
+    <circle cx="50" cy="85" r="14" fill="#1E293B" stroke="#38BDF8" stroke-width="2"/>
+    <text x="50" y="89" fill="#38BDF8" font-family="'SF Mono', Consolas, monospace" font-size="9" font-weight="700" text-anchor="middle">START</text>
+
+    <!-- Branches -->
+    <line x1="64" y1="80" x2="136" y2="55" stroke="#38BDF8" stroke-width="1.5"/>
+    <line x1="64" y1="90" x2="136" y2="115" stroke="#64748B" stroke-width="1.2" stroke-dasharray="3 3"/>
+
+    <!-- Candidate A (Chosen by min-heap) -->
+    <circle cx="150" cy="55" r="14" fill="#1E293B" stroke="#34D399" stroke-width="2"/>
+    <text x="150" y="58" fill="#34D399" font-family="'SF Mono', Consolas, monospace" font-size="8" font-weight="700" text-anchor="middle">f=4.12</text>
+    <text x="150" y="34" fill="#34D399" font-family="'SF Mono', Consolas, monospace" font-size="7.5" text-anchor="middle">MIN HEAP POP</text>
+
+    <!-- Candidate B (Pruned / higher cost) -->
+    <circle cx="150" cy="115" r="12" fill="#181E2B" stroke="#64748B" stroke-width="1"/>
+    <text x="150" y="118" fill="#94A3B8" font-family="'SF Mono', Consolas, monospace" font-size="7.5" text-anchor="middle">f=5.84</text>
+    <text x="150" y="138" fill="#64748B" font-family="'SF Mono', Consolas, monospace" font-size="7.5" text-anchor="middle">PRUNED</text>
+
+    <!-- Next Branch to Optimal Target -->
+    <line x1="164" y1="55" x2="246" y2="75" stroke="#34D399" stroke-width="2"/>
+    
+    <!-- Target Node -->
+    <circle cx="260" cy="75" r="15" fill="#1E293B" stroke="#F59E0B" stroke-width="2"/>
+    <text x="260" y="79" fill="#F59E0B" font-family="'SF Mono', Consolas, monospace" font-size="9" font-weight="700" text-anchor="middle">GOAL</text>
+
+    <!-- Queue State Box -->
+    <g transform="translate(300, 36)">
+      <rect x="0" y="0" width="90" height="95" rx="5" fill="#0B0F19" stroke="#334155" stroke-width="1"/>
+      <text x="10" y="18" fill="#94A3B8" font-family="'SF Mono', Consolas, monospace" font-size="8" font-weight="700">OPEN SET</text>
+      <text x="10" y="34" fill="#34D399" font-family="'SF Mono', Consolas, monospace" font-size="7.5">[4.12, NodeA]</text>
+      <text x="10" y="48" fill="#64748B" font-family="'SF Mono', Consolas, monospace" font-size="7.5">[5.84, NodeB]</text>
+      <text x="10" y="62" fill="#64748B" font-family="'SF Mono', Consolas, monospace" font-size="7.5">[6.20, NodeC]</text>
+      <line x1="8" y1="70" x2="82" y2="70" stroke="#1E293B" stroke-width="1"/>
+      <text x="10" y="84" fill="#38BDF8" font-family="'SF Mono', Consolas, monospace" font-size="7.5">O(E + V log V)</text>
+    </g>
+  </g>
+
+  <!-- Footer Specs -->
+  <g transform="translate(32, 260)">
+    <text x="0" y="0" fill="#64748B" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9.5">BACKEND: Python Flask Service · Express.js Web Gateway · MongoDB Storage · Verified Heritage Coordinates</text>
+    <text x="816" y="0" fill="#64748B" font-family="'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="9.5" text-anchor="end">ROLE: LEAD DEVELOPER (CORE CODE IMPLEMENTATION)</text>
+  </g>
+</svg>
