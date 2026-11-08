@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse"><stop stop-color="#0B0920"/><stop offset=".58" stop-color="#171332"/><stop offset="1" stop-color="#241B45"/></linearGradient>
+    <linearGradient id="violet" x1="90" y1="30" x2="300" y2="230" gradientUnits="userSpaceOnUse"><stop stop-color="#E0D5FF"/><stop offset=".48" stop-color="#A98AFF"/><stop offset="1" stop-color="#7454D6"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C8B7FF" stop-opacity=".8"/><stop offset="1" stop-color="#8A70E8" stop-opacity=".08"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#C8B7FF" stroke-opacity=".075" stroke-width="1"/></pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="260" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="260" rx="18" fill="url(#grid)"/>
+  <path d="M760 -30L1000 260M900 -30L1140 260M1040 -30L1280 260" stroke="url(#line)" stroke-width="1"/>
+  <circle cx="1020" cy="132" r="118" stroke="#A98AFF" stroke-opacity=".16"/>
+  <circle cx="1020" cy="132" r="88" stroke="#A98AFF" stroke-opacity=".25" stroke-dasharray="3 8"/>
+  <ellipse cx="1020" cy="132" rx="145" ry="48" transform="rotate(-28 1020 132)" stroke="#C9B8FF" stroke-opacity=".6"/>
+  <circle cx="1153" cy="63" r="5" fill="#E0D5FF" filter="url(#glow)"/>
+  <path d="M88 54V206M88 54H106" stroke="#A98AFF" stroke-width="2"/>
+  <g filter="url(#glow)" stroke="url(#violet)" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M139 73V188M139 131L208 73M164 110L219 188"/>
+    <path d="M244 73V188L310 73V188"/>
+  </g>
+  <path d="M346 73V188" stroke="#A98AFF" stroke-opacity=".55"/>
+  <text x="382" y="105" fill="#F3EEFF" font-family="Georgia, 'Times New Roman', serif" font-size="39" letter-spacing="1.4">Kyaw Zay Ya Hein</text>
+  <text x="384" y="143" fill="#C7B9F4" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="4">PRODUCT BUILDER  /  SOFTWARE ENGINEER</text>
+  <text x="384" y="176" fill="#9589BC" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="3">EXPERIMENTAL ENGINEER · MIIT '27</text>
+  <path d="M384 198H690" stroke="#A98AFF" stroke-opacity=".55"/>
+  <text x="1110" y="230" fill="#AFA2D8" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="end" letter-spacing="3">KZYH / 001</text>
+</svg>
