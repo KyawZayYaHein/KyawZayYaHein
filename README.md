@@ -1,16 +1,16 @@
 <!-- 01 / IDENTITY MASTHEAD -->
 <p align="center">
-  <a href="https://swordsouloflabrynth.github.io/portfolio/">
+  <a href="https://kyawzayyahein.github.io/portfolio/">
     <img alt="Kyaw Zay Ya Hein — Product Builder · Software Engineer · Experimental Engineer" src="assets/kzyh-github-hero-banner.png" width="100%">
   </a>
 </p>
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-swordsouloflabrynth.github.io-4A44C6?style=flat-square&logo=google-chrome&logoColor=white)](https://swordsouloflabrynth.github.io/portfolio/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-kyawzayyahein.github.io-4A44C6?style=flat-square&logo=google-chrome&logoColor=white)](https://kyawzayyahein.github.io/portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-kyaw--zay--ya--hein-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/kyaw-zay-ya-hein-00aba927b)
 [![Email](https://img.shields.io/badge/Email-kyawzayyahein.mdy%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:kyawzayyahein.mdy@gmail.com)
-[![Résumé](https://img.shields.io/badge/R%C3%A9sum%C3%A9-PDF-17132F?style=flat-square&logo=adobe-acrobat-reader&logoColor=white)](https://swordsouloflabrynth.github.io/portfolio/assets/documents/Kyaw_Zay_Ya_Hein_CV_Resume.pdf)
+[![Résumé](https://img.shields.io/badge/R%C3%A9sum%C3%A9-PDF-17132F?style=flat-square&logo=adobe-acrobat-reader&logoColor=white)](https://kyawzayyahein.github.io/portfolio/assets/documents/Kyaw_Zay_Ya_Hein_CV_Resume.pdf)
 
 <p align="center">
   <code>🎓 MIIT Final-Year CSE ('27)</code> &bull;
@@ -30,7 +30,7 @@ Empirical architectures, deterministic domain state machines, and spatial algori
 
 ---
 
-### `SYS.01` [MatchGuard](https://github.com/SwordsoulOfLabrynth/TrustedMarketplace) — Non-Custodial Trust Engine
+### `SYS.01` [MatchGuard](https://github.com/KyawZayYaHein/TrustedMarketplace) — Non-Custodial Trust Engine
 `C#` &bull; `.NET 10` &bull; `MediatR (CQRS)` &bull; `PostgreSQL 16` &bull; `Entity Framework Core` &bull; `xUnit`
 
 A peer-to-peer trust platform enforcing formal order progression milestones without holding, routing, custodying, or settling user funds.
@@ -47,13 +47,13 @@ A peer-to-peer trust platform enforcing formal order progression milestones with
   </p>
   <blockquote>
     <b>Architecture Highlights:</b> In-process MediatR CQRS pipeline &bull; PBKDF2 Password Hashing with ASP.NET Core Identity &bull; Stateless JWT claims &bull; Auditable <code>OrderStatusHistory</code> append-only log &bull; Containerized PostgreSQL 16 via Docker.<br/>
-    &rarr; <a href="https://github.com/SwordsoulOfLabrynth/TrustedMarketplace"><b>Explore TrustedMarketplace Repository</b></a>
+    &rarr; <a href="https://github.com/KyawZayYaHein/TrustedMarketplace"><b>Explore TrustedMarketplace Repository</b></a>
   </blockquote>
 </details>
 
 ---
 
-### `SYS.02` [Baganetic Mobile](https://github.com/SwordsoulOfLabrynth/BaganeticMobileApp) — Offline-First Spatial Navigation
+### `SYS.02` [Baganetic Mobile](https://github.com/KyawZayYaHein/BaganeticMobileApp) — Offline-First Spatial Navigation
 `Flutter` &bull; `Dart` &bull; `SQLite (sqflite)` &bull; `flutter_map_tile_caching` &bull; `Firebase Auth` &bull; `Provider`
 
 An on-device mobile companion engineered for seamless travel in zero-connectivity environments across the Bagan archaeological zone.
@@ -70,13 +70,13 @@ An on-device mobile companion engineered for seamless travel in zero-connectivit
   </p>
   <blockquote>
     <b>Architecture Highlights:</b> <code>flutter_map_tile_caching</code> (FMTC) prefetch bounds across Bagan coordinates (20.9717&deg; N &ndash; 21.3717&deg; N) &bull; SQLite schema v14 &bull; Hybrid Firebase Auth with local SQLite fallback for low-connectivity environments.<br/>
-    &rarr; <a href="https://github.com/SwordsoulOfLabrynth/BaganeticMobileApp"><b>Explore BaganeticMobileApp Repository</b></a>
+    &rarr; <a href="https://github.com/KyawZayYaHein/BaganeticMobileApp"><b>Explore BaganeticMobileApp Repository</b></a>
   </blockquote>
 </details>
 
 ---
 
-### `SYS.03` [Baganetic Engine](https://github.com/SwordsoulOfLabrynth/Baganetic) — Custom A* Pathfinding Service
+### `SYS.03` [Baganetic Engine](https://github.com/KyawZayYaHein/Baganetic) — Custom A* Pathfinding Service
 `Python` &bull; `Flask` &bull; `Node.js` &bull; `Express` &bull; `MongoDB` &bull; `REST APIs`
 
 A specialized algorithmic routing microservice calculating optimal travel paths across complex rural road topographies.
@@ -93,13 +93,13 @@ A specialized algorithmic routing microservice calculating optimal travel paths 
   </p>
   <blockquote>
     <b>Architecture Highlights:</b> Python Flask algorithmic microservice &bull; Node.js Express web portal &bull; MongoDB geospatial queries &bull; Dynamic edge pruning verified against physical coordinates.<br/>
-    &rarr; <a href="https://github.com/SwordsoulOfLabrynth/Baganetic"><b>Explore Baganetic Repository</b></a>
+    &rarr; <a href="https://github.com/KyawZayYaHein/Baganetic"><b>Explore Baganetic Repository</b></a>
   </blockquote>
 </details>
 
 ---
 
-### `SYS.04` [GeoAlert AI](https://github.com/SwordsoulOfLabrynth/GeoAlert-AI-HACK-MM-041) — Geospatial Hazard Simulation
+### `SYS.04` [GeoAlert AI](https://github.com/KyawZayYaHein/GeoAlert-AI-HACK-MM-041) — Geospatial Hazard Simulation
 `Python` &bull; `Streamlit` &bull; `PyDeck (deck.gl)` &bull; `Pandas` &bull; `NASA SRTM`
 
 Interactive 3D simulation analyzing infrastructure exposure and computing risk-weighted evacuation paths during natural hazards.
@@ -116,7 +116,7 @@ Interactive 3D simulation analyzing infrastructure exposure and computing risk-w
   </p>
   <blockquote>
     <b>Architecture Highlights:</b> Composite vulnerability scoring (Flood: 45% rain + 35% inverse elevation + 20% waterway; Landslide: 60% slope + 40% rain) rendered via interactive 3D PyDeck column overlays.<br/>
-    &rarr; <a href="https://github.com/SwordsoulOfLabrynth/GeoAlert-AI-HACK-MM-041"><b>Explore GeoAlert-AI Repository</b></a>
+    &rarr; <a href="https://github.com/KyawZayYaHein/GeoAlert-AI-HACK-MM-041"><b>Explore GeoAlert-AI Repository</b></a>
   </blockquote>
 </details>
 
@@ -142,6 +142,6 @@ BUILD WITH INTENT. TEST WITH EVIDENCE.
 ```
 
 **Kyaw Zay Ya Hein** &bull; Final-Year CSE @ MIIT ('27) &bull; Mandalay, Myanmar<br/>
-[Portfolio](https://swordsouloflabrynth.github.io/portfolio/) &bull; [LinkedIn](https://linkedin.com/in/kyaw-zay-ya-hein-00aba927b) &bull; [Email](mailto:kyawzayyahein.mdy@gmail.com) &bull; [GitHub Profile](https://github.com/SwordsoulOfLabrynth)
+[Portfolio](https://kyawzayyahein.github.io/portfolio/) &bull; [LinkedIn](https://linkedin.com/in/kyaw-zay-ya-hein-00aba927b) &bull; [Email](mailto:kyawzayyahein.mdy@gmail.com) &bull; [GitHub Profile](https://github.com/KyawZayYaHein)
 
 </div>
